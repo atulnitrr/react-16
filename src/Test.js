@@ -5,6 +5,7 @@ import Ptag from "./Ptag";
 import Footer from "./Footer";
 import Pet from "./Pet";
 import Time from "./Time";
+import LikeArea from "./test/LikeArea";
 
 const pets = [
   { name: "cat", age: "12", id: "1" },
@@ -16,6 +17,7 @@ export default function Test() {
   return (
     <div>
       <Time></Time>
+      <LikeArea></LikeArea>
       <Htag name="ddd" age="23"></Htag>
       <Ptag name="ddd" age="23"></Ptag>
       <ul>

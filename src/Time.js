@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 export default function Time() {
   const [time, setTime] = useState(new Date().toLocaleString());
+
   setInterval(() => {
     setTime(new Date().toLocaleString());
   }, 1000);
