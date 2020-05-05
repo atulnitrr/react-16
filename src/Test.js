@@ -4,6 +4,7 @@ import Htag from "./Htag";
 import Ptag from "./Ptag";
 import Footer from "./Footer";
 import Pet from "./Pet";
+import Time from "./Time";
 
 const pets = [
   { name: "cat", age: "12", id: "1" },
@@ -14,6 +15,7 @@ const pets = [
 export default function Test() {
   return (
     <div>
+      <Time></Time>
       <Htag name="ddd" age="23"></Htag>
       <Ptag name="ddd" age="23"></Ptag>
       <ul>
